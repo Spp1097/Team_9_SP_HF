@@ -1,0 +1,185 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-size: 55%;
+}
+
+body #header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #header #logo {
+  width: 20%;
+}
+
+body #header #nav {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body #header #nav .nav-item {
+  text-decoration: none;
+  color: black;
+}
+
+body #features, body #team {
+  width: 65vw;
+  margin: 7% 0% 5% 7%;
+}
+
+body #first_text, body h3 {
+  text-align: center;
+}
+
+body #form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #form .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #form .label .border {
+  width: 60%;
+  margin: 1%;
+}
+
+body #form .label #email {
+  border: 0.5px solid #070439;
+  border-radius: 3px;
+  padding: 3px 0px 3px 6px;
+  height: 1em;
+}
+
+body #form .label #button {
+  height: 1.6em;
+  border: 0.5px solid #070439;
+  border-radius: 3px;
+  background-color: #3065f8;
+  color: white;
+}
+
+body .team {
+  background-color: #f6f6fe;
+  margin: 0;
+  padding: 0;
+}
+
+body .team .coment {
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 45px 3px #bfbfbf;
+          box-shadow: 1px 1px 45px 3px #bfbfbf;
+  padding: 5% 4% 4% 10%;
+}
+
+body .team .coment .flex_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .team .coment .flex_row #coment {
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+  margin: 4%;
+}
+
+body .team .coment .flex_row .aling_center {
+  font-weight: bold;
+}
+
+body .curve {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 375px) {
+  body {
+    font-size: 100%;
+  }
+  body #section_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 90vh;
+    width: 90vw;
+  }
+  body #section_1 #form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body #section_1 #email {
+    width: 25vw;
+  }
+  body #section_1 #button {
+    width: 17vw;
+  }
+  body #features {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 45%;
+    height: 80%;
+  }
+  body #section_2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body #first {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=main.css.map */

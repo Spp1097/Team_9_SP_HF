@@ -8,12 +8,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="sass/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="SASS/main.css">
 </head>
 
 <body>
- 
-    
-    <section class="pre-footer">
+  <header id="header">
+    <img src="images/logo.svg" alt="logoFYLO" id="logo">
+    <nav id="nav">
+      <a href="#Features" class="nav-item">Features</a>
+      <a href="#Team" class="nav-item">Team</a>
+      <a href="#SignIn" class="nav-item">Sign In</a>
+    </nav>
+  </header>
+  <main>
+    <section id="section_1">
+      <img src="images/illustration-1.svg" alt="Features" id="features">
+      <div id="section_2">
+        <article id="first_text">
+          <h1> All your files in one secure
+            location, accessible anywhere.
+          </h1>
+          <p>Fylo stores your most important files in one secure location. Access them wherever you need, share
+            and collaborate with friends,
+            family, and co-workers.
+          </p>
+        </article>
+        <form action="" id="form">
+          <label for="email" class="label">
+            <input type="email" placeholder="Enter your email.." class="border" id="email" required>
+          </label>
+          <label for="button" class="label">
+            <button type="submit" class="border" id="button">Get Started</button>
+          </label>
+        </form>
+      </div>
+    </section>
+    <img src="images/bg-curve-mobile.svg" alt="" class="curve">         
+    <section class="team"> 
+      <img src="images/illustration-2.svg" alt="" id="team">
+      <h3 class="h3">Stay productive, wherever you are</h3>
+      <p>
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </p>
+      <p>
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </p>
+      <a href="#" class="see">See how Fylo works<img src="images/icon-arrow.svg" alt="arrow"></a>
+      <article class="coment">
+      <p>
+        <img src="images/icon-quotes.svg" alt="">
+      </p>
+      <p>
+        Fylo has improved our team productivity by an order of magnitude. Since
+        making the switch our team has become a well-oiled collaboration machine.
+      </p>
+      <span class="flex_row">
+        <img src="images/avatar-testimonial.jpg" alt="kyle_photo" id="coment">
+        <span class="aling_center">
+          Kyle Burton
+          <br>
+          Founder & CEO, Huddle
+        </span>
+      </span>
+    </article>
+    </section>
+  </main>
+  <section class="pre-footer">
 
         <div class="content-wrap"> 
             <h3>Get early access today</h3>
@@ -24,13 +87,8 @@
             <input type="email" name="email" placeholder="email@example.com" required id="email-field">
             <input type="submit" name="submit" id="submit" value="Get Started For Free" >
         </form>
-    </section>
-
-
-
-
-
-   <footer>
+  </section>
+  <footer>
         
             <img src="images/logo_.jpeg" alt="logo" class="logo-footer">
             <div class="phone-email">
